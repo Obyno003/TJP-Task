@@ -10,7 +10,6 @@
 }
 
 body {
-    width: 100%;
     background: #FFFFFF;;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 2px;
@@ -37,14 +36,10 @@ header {
 
 nav {
     display: flex;
-    /* flex-direction: row; */
     align-items: center;
     justify-content: space-between;
     width: 35%;
-    /* gap: 97px; */
-    /* width: 415px;
-    height: 44px; */
-    
+
 }
 
 nav a {
