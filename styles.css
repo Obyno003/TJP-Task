@@ -27,7 +27,7 @@ header {
     padding: 0.5% 2%;
     border: 2px solid #155EEF;
     border-radius: 8px;
-    margin-bottom: 1.5%;
+    background-color: #FFFFFF;
 }
 
 .logo-header {
@@ -39,7 +39,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 35%;
-
 }
 
 nav a {
@@ -84,6 +83,7 @@ nav a button:hover {
     background: #F9FBFF;
     border: 2px solid #155EEF;
     border-radius: 8px;
+    margin-top: 3.5%;
 }
 
 .bio {
@@ -139,7 +139,7 @@ nav a button:hover {
    width: 40%;
 }
 
-.bottom-section {
+.middle-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -158,7 +158,7 @@ nav a button:hover {
     vertical-align: middle;
 }
 
-.bottom-section .about {
+.middle-section .about {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -166,14 +166,14 @@ nav a button:hover {
     width: 50%;
 }
 
-.bottom-section h2 {
+.middle-section h2 {
     font-family: 'Halant', serif;
     font-weight: 600;
     font-size: 40px;
     color: #041330;
 }
 
-.bottom-section p {
+.middle-section p {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -181,6 +181,52 @@ nav a button:hover {
     text-align: justify;
     letter-spacing: 0.5px;
     color: #2E3A53;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    padding: 15% 2% 2% 2%;
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+    margin-bottom: 4%;
+}
+
+.projects {
+    padding: 2% 2% 5% 2%;
+    position: absolute;
+    left: 3%;
+    top: 8%;
+    width: 52%;
+    background: #F9FBFF;
+}
+
+.projects h3 {
+    font-family: 'Halant';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: #041330;
+}
+
+.div-ul {
+    padding-left: 7%;
+}
+
+.projects p, ul {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+    margin-top: 3%;
+}
+
+.project-image {
+    width: 55%;
 }
 
 footer {
@@ -203,11 +249,8 @@ footer {
     width: 15%;
 }
 
-/* .p-footer {
-    width: 30%;
-} */
 
-.p-footer p {
+.social-media-handle p {
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 24px;
