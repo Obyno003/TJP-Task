@@ -1,0 +1,132 @@
+/* Responsiveness for a Mobile Device with Max-width of 500px */
+@media screen and (max-width: 500px) {
+    .logo-header {
+        width: 50%;
+    }
+    
+    nav a{
+        display: none;
+    }
+
+    nav {
+        justify-content: flex-end;
+        margin-right: 2%;
+    }
+
+    .hamburger {
+        display: block;
+        width: 20%;
+    }
+
+    .top-section
+{
+    flex-direction: column;
+    text-align: center;
+}
+
+.bio {
+    width: 100%;
+}
+
+.bio strong {
+    font-size: 16px;
+}
+
+.bio h1 {
+    font-size: 32px;
+    margin: 1% 0;
+}
+
+.bio p {
+    font-size: 16px;
+}
+
+.bio a button {
+    width: 95%;
+}
+
+.web-img {
+    width: 95%;
+}
+
+.middle-section {
+    flex-direction: column-reverse;
+}
+
+.middle-section .about {
+    width: 95%;
+}
+
+.middle-section .about h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.middle-section p {
+    font-size: 16px;
+    margin: 4% 0;
+}
+
+.about-img {
+    width: 95%;
+}
+
+.bottom-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 2%;
+}
+
+.projects {
+    width: 95%;
+    position: static;
+    left: none;
+    top: none;
+}
+
+.projects h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.projects p, ul {
+    font-size: 16px;
+}
+
+.project-image {
+    width: 95%;
+}
+
+footer {
+    flex-direction: column;
+    padding: 4% 2%;
+}
+
+.footer-logo-icons {
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 23%;
+    margin-bottom: 2%;
+}
+.logo-footer {
+    width: 50%;
+}
+
+.icons {
+    width: 25%;
+    justify-content: center;
+    gap: 15%;
+}
+
+.social-media-handle {
+    width: 95%;
+}
+
+.social-media-handle p {
+    /* width: 95%; */
+    font-size: 16px;
+    text-align: center;
+}
+}
