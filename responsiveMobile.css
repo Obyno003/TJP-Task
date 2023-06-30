@@ -1,14 +1,29 @@
-/* Responsiveness for a Mobile Device with Max-width of 500px */
-@media screen and (max-width: 500px) {
+/* Responsiveness for a Mobile Screen */
+@media screen and (max-width: 600px) {
+
+    p, ul, strong {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+
     .logo-header {
-        width: 50%;
+        width: 40%;
     }
     
-    nav a{
+    .menus {
         display: none;
     }
 
     nav {
+        display: flex;
         justify-content: flex-end;
         margin-right: 2%;
     }
@@ -25,20 +40,16 @@
 }
 
 .bio {
-    width: 100%;
+    width: 95%;
 }
 
 .bio strong {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .bio h1 {
     font-size: 32px;
     margin: 1% 0;
-}
-
-.bio p {
-    font-size: 16px;
 }
 
 .bio a button {
@@ -53,18 +64,8 @@
     flex-direction: column-reverse;
 }
 
-.middle-section .about {
+.about {
     width: 95%;
-}
-
-.middle-section .about h2 {
-    font-size: 24px;
-    text-align: center;
-}
-
-.middle-section p {
-    font-size: 16px;
-    margin: 4% 0;
 }
 
 .about-img {
@@ -72,61 +73,107 @@
 }
 
 .bottom-section {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
     padding: 4% 2%;
+    background: #F9FBFF;
 }
 
 .projects {
     width: 95%;
-    position: static;
+    position: unset;
     left: none;
     top: none;
-}
-
-.projects h3 {
-    font-size: 24px;
-    text-align: center;
-}
-
-.projects p, ul {
-    font-size: 16px;
+    padding: unset;
 }
 
 .project-image {
-    width: 95%;
+    /* width: 95%; */
+    display: none;
 }
 
 footer {
-    flex-direction: column;
-    padding: 4% 2%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.footer-logo-icons {
-    width: 95%;
-    display: flex;
-    justify-content: flex-start;
-    gap: 23%;
-    margin-bottom: 2%;
-}
 .logo-footer {
-    width: 50%;
+    width: 40%;
 }
 
 .icons {
-    width: 25%;
-    justify-content: center;
-    gap: 15%;
+    width: 45%;
 }
 
 .social-media-handle {
-    width: 95%;
+    width: 100%;
 }
 
 .social-media-handle p {
-    /* width: 95%; */
-    font-size: 16px;
     text-align: center;
+    font-size: 20px;
 }
+}
+
+/* Responsiveness for Smaller Desktop Screen & Tablet Screen */
+@media screen and (max-width: 1200px) and (min-width: 601px) {
+    .logo-header {
+        width: 30%;
+    }
+    
+    nav {
+        width: 45%;
+    }
+
+    .bottom-section {
+        justify-content: space-between;
+        align-items: center;
+        padding: 3% 2%;
+    }
+
+    p, ul {
+        text-align: start;
+    }
+
+    .projects {
+        position: unset;
+        width: 55%;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .project-image {
+        width: 40%;
+    }
+
+    footer {
+        justify-content: center;
+    }
+/* 
+    .logo-footer {
+       width: 25%;
+    } */
+
+    .icons {
+        width: 30%;
+    }
+
+    .social-media-handle {
+        width: 45%;
+    }
+
+    .social-media-handle p {
+       text-align: center;
+       font-size: 18px;
+    }
 }
