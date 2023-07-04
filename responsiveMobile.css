@@ -117,6 +117,20 @@ footer {
 }
 }
 
+/* Hamburger Menu Responsive Clicks */
+.hamburger-menu.visible {
+    display: flex;
+}
+
+.close-menu {
+    width: 20%;
+}
+
+.close-menu.visible {
+    display: block;
+}
+
+
 /* Responsiveness for Smaller Desktop Screen & Tablet Screen */
 @media screen and (max-width: 1200px) and (min-width: 601px) {
     .logo-header {

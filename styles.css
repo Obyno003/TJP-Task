@@ -36,6 +36,7 @@ header {
 
 nav {
     width: 40%;
+    position: relative;
 }
 
 .menus {
@@ -77,9 +78,28 @@ nav a button:hover {
     color: #FFFFFF;
 }
 
-.hamburger {
+.hamburger, .hamburger-menu, .close-menu {
     display: none;
     cursor: pointer;
+}
+
+.hamburger-menu {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 35%;
+    width: 20%;
+}
+
+.hamburger-menu a {
+    text-decoration: none;
+    color: #041330;
+    font-family: Halant;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10%;
+    border-bottom: 1px solid grey;
 }
 
 .top-section
