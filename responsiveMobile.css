@@ -77,9 +77,6 @@
 }
 
 .bottom-section {
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
     padding: 4% 2%;
     background: #F9FBFF;
 }
@@ -93,7 +90,6 @@
 }
 
 .project-image {
-    /* width: 95%; */
     display: none;
 }
 
@@ -191,10 +187,6 @@ footer {
     footer {
         justify-content: center;
     }
-/* 
-    .logo-footer {
-       width: 25%;
-    } */
 
     .icons {
         width: 30%;
