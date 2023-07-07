@@ -28,15 +28,19 @@
         margin-right: 2%;
     }
 
-    .hamburger {
-        display: block;
+    .menu-icon {
         width: 20%;
+    }
+
+    .hamburger-icon {
+        display: block;
     }
 
     .top-section
 {
     flex-direction: column;
     text-align: center;
+    margin-top: 5%;
 }
 
 .bio {
@@ -117,19 +121,33 @@ footer {
 }
 }
 
-/* Hamburger Menu Responsive Clicks */
+/* Hamburger Responsive Clicks */
 .hamburger-menu.visible {
     display: flex;
 }
 
-.close-menu {
-    width: 20%;
-}
-
-.close-menu.visible {
+.close-icon {
     display: block;
 }
 
+.close-icon.hide {
+    display: none;
+}
+
+.hamburger-icon.hide {
+    display: none;
+}
+
+.position.hide {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 3%;
+}
+
+.top-section.top {
+    margin-top: 15%;
+}
 
 /* Responsiveness for Smaller Desktop Screen & Tablet Screen */
 @media screen and (max-width: 1200px) and (min-width: 601px) {
