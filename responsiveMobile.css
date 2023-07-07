@@ -40,7 +40,6 @@
 {
     flex-direction: column;
     text-align: center;
-    margin-top: 5%;
 }
 
 .bio {
@@ -139,10 +138,6 @@ footer {
     left: 0;
     right: 0;
     margin: 0 3%;
-}
-
-.top-section.top {
-    margin-top: 15%;
 }
 
 /* Responsiveness for Smaller Desktop Screen & Tablet Screen */
